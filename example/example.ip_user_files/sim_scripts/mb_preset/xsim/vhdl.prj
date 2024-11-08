@@ -1,0 +1,18 @@
+vhdl xil_defaultlib  \
+"../../../bd/mb_preset/ip/mb_preset_axi_timer_0_0/sim/mb_preset_axi_timer_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_axi_uartlite_0_0/sim/mb_preset_axi_uartlite_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_axi_iic_0_0/sim/mb_preset_axi_iic_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_axi_quad_spi_0_0/sim/mb_preset_axi_quad_spi_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_microblaze_0_0/sim/mb_preset_microblaze_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_dlmb_v10_0/sim/mb_preset_dlmb_v10_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_ilmb_v10_0/sim/mb_preset_ilmb_v10_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_dlmb_bram_if_cntlr_0/sim/mb_preset_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_ilmb_bram_if_cntlr_0/sim/mb_preset_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_microblaze_0_axi_intc_0/sim/mb_preset_microblaze_0_axi_intc_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_mdm_1_0/sim/mb_preset_mdm_1_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_rst_clk_wiz_1_100M_0/sim/mb_preset_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_axi_gpio_0_0/sim/mb_preset_axi_gpio_0_0.vhd" \
+"../../../bd/mb_preset/ip/mb_preset_axi_gpio_1_0/sim/mb_preset_axi_gpio_1_0.vhd" \
+
+# Do not sort compile order
+nosort
