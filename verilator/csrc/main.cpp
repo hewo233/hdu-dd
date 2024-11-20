@@ -1,11 +1,11 @@
-#include "../build/obj_dir/VTOP.h"
+#include "../build/obj_dir/Vtop.h"
 #include <cassert>
 #include <cstdint>
 #include <cstdio>
 #include <iostream>
 #include "verilated_vcd_c.h"
 
-void ans[50] = {
+int ans[50] = {
     0b11111110,
     0b11111101,
     0b11111011,
@@ -22,10 +22,12 @@ int main() {
     VerilatedVcdC* tfp = new VerilatedVcdC;
     int sim_time = 0;
 
-    TOP_NAME top;
+    TOP_NAME* top = new TOP_NAME;
 
-    top.trace(tfp, 99);
+    top->trace(tfp, 99);
     tfp->open("./build/wave.vcd");
+
+    // printf("begin\n");
 
     top->G1 = 1;
     top->not_G2 = 0;
@@ -40,8 +42,8 @@ int main() {
         top->B = (i >> 1) & 1;
         top->C = (i >> 2) & 1;
         top->eval();
-        tfp->dump(i);
-        assert(top->F == ans[i]);
+        tfp->dump(sim_time++);
+        assert(top->not_Y == ans[i]);
     }
 
     std::cout << "PASS" << std::endl;

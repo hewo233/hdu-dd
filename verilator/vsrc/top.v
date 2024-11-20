@@ -1,4 +1,4 @@
-module TOP(
+module top(
     input G1,
     input not_G2,
     input not_G3,

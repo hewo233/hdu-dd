@@ -1,4 +1,4 @@
-TOP_MODULE			:=	TOP
+TOP_MODULE			:=	top
 TOP_NAME			:=	V$(TOP_MODULE)
 
 VERILATOR			:=	verilator
@@ -16,7 +16,7 @@ CSRCS				+=	$(shell find $(CSRC_DIR) -type f -name "*.c" -or -name "*.cc" -or -n
 INC_PATH			+=	$(OBJ_DIR)
 
 INCFLAGS 			:= $(addprefix -I, $(INC_PATH))
-CXXFLAGS 			+= $(INCFLAGS)
+CXXFLAGS 			+= $(INCFLAGS) -g
 
 sim: $(BUILD_DIR)/$(TOP_NAME)
 	@echo "Building $@"
