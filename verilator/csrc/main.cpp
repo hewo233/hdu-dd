@@ -28,23 +28,17 @@ int main() {
     tfp->open("./build/wave.vcd");
 
     // printf("begin\n");
-
-    top->G1 = 1;
-    top->not_G2 = 0;
-    top->not_G3 = 0;
-    top->A = 0;
-    top->B = 0;
-    top->C = 0;
-
-    // Simulate for a few cycles
-    for (int i = 0; i < 8; ++i) {
-        top->A = i & 1;
-        top->B = (i >> 1) & 1;
-        top->C = (i >> 2) & 1;
+    for (int i = 0; i < 4; ++i) {
+        top->S = i;
+        top->A = 0b0001;
+        top->B = 0b0010;
+        top->C = 0b0100;
+        top->D = 0b1000;
         top->eval();
         tfp->dump(sim_time++);
-        assert(top->not_Y == ans[i]);
+        printf("top->Y = %d\n", top->Y);
     }
+    
 
     std::cout << "PASS" << std::endl;
     tfp->close();
