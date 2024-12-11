@@ -1,14 +1,14 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Wed Nov 20 19:59:19 2024
-| Host         : stu-020 running 64-bit Service Pack 1  (build 7601)
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Wed Nov 27 17:26:05 2024
+| Host         : HewoArch running 64-bit Arch Linux
 | Command      : report_drc -file edReg_drc_routed.rpt -pb edReg_drc_routed.pb -rpx edReg_drc_routed.rpx
 | Design       : edReg
 | Device       : xc7a100tfgg484-2L
 | Speed File   : -2L
-| Design State : Routed
----------------------------------------------------------------------------------------------------------
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Report DRC
 

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/dd/lab7/lab7.srcs/constrs_1/new/lab7-xdc.xdc rfile:../../../lab7.srcs/constrs_1/new/lab7-xdc.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/hewo/CS/hdu/hdu-dd/vivados/lab7/lab7.srcs/constrs_1/new/lab7-xdc.xdc rfile:../../../lab7.srcs/constrs_1/new/lab7-xdc.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T3 [get_ports {D[7]}]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]

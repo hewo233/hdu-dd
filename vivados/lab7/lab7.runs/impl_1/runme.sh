@@ -3,17 +3,14 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+# Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
 
-echo "This script was generated under a different operating system."
-echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
-exit
-
 if [ -z "$PATH" ]; then
-  PATH=C:/VIVADO17.4/SDK/2017.4/bin;C:/VIVADO17.4/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/VIVADO17.4/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/VIVADO17.4/Vivado/2017.4/bin
+  PATH=/opt/Xilinx/Vivado/2024.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2024.1/bin
 else
-  PATH=C:/VIVADO17.4/SDK/2017.4/bin;C:/VIVADO17.4/Vivado/2017.4/ids_lite/ISE/bin/nt64;C:/VIVADO17.4/Vivado/2017.4/ids_lite/ISE/lib/nt64:C:/VIVADO17.4/Vivado/2017.4/bin:$PATH
+  PATH=/opt/Xilinx/Vivado/2024.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2024.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/dd/lab7/lab7.runs/impl_1'
+HD_PWD='/home/hewo/CS/hdu/hdu-dd/vivados/lab7/lab7.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +38,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log edReg.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source edReg.tcl -notrace
 
 
