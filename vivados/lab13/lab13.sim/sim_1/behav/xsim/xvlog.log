@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sources_1/new/diglab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module diglab
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sources_1/new/eightseg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightseg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sim_1/new/diglab_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module diglab_tb

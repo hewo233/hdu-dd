@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sim_1/new/diglab_Test.v,1733908258,verilog,,,,diglab_tb,,,,,,,,
+/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sources_1/new/diglab.v,1733908900,verilog,,/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sources_1/new/eightseg.v,,diglab,,,,,,,,
+/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sources_1/new/eightseg.v,1733907951,verilog,,/home/hewo/CS/hdu/hdu-dd/vivados/lab13/lab13.srcs/sim_1/new/diglab_Test.v,,eightseg,,,,,,,,
