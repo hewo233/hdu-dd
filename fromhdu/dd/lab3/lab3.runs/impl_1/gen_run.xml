@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tfgg484-2L" LaunchTime="1732102342">
+  <File Type="PWROPT-DCP" Name="decoder74LS138_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="decoder74LS138_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="decoder74LS138.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="decoder74LS138_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="decoder74LS138_reports.tcl"/>
+  <File Type="BG-DRC" Name="decoder74LS138.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="decoder74LS138_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="decoder74LS138_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="decoder74LS138.hwdef"/>
+  <File Type="OPT-DCP" Name="decoder74LS138_opt.dcp"/>
+  <File Type="OPT-DRC" Name="decoder74LS138_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="decoder74LS138_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="decoder74LS138_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="decoder74LS138_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="decoder74LS138_placed.dcp"/>
+  <File Type="PLACE-IO" Name="decoder74LS138_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="decoder74LS138_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="decoder74LS138_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="decoder74LS138_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="decoder74LS138_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="decoder74LS138_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="decoder74LS138_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="decoder74LS138_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="decoder74LS138_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="decoder74LS138_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="decoder74LS138_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="decoder74LS138_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="decoder74LS138.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="decoder74LS138_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="decoder74LS138_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="decoder74LS138_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="decoder74LS138_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="decoder74LS138_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="decoder74LS138_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="decoder74LS138.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="decoder74LS138_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="decoder74LS138.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="decoder74LS138_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="decoder74LS138.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="decoder74LS138_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="decoder74LS138.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="decoder74LS138_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="decoder74LS138_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="decoder74LS138_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="decoder74LS138_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="decoder74LS138_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="decoder74LS138_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="decoder74LS138_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="decoder74LS138_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="decoder74LS138.vdi"/>
+  <File Type="ROUTE-CLK" Name="decoder74LS138_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="decoder74LS138_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="decoder74LS138_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="decoder74LS138_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="decoder74LS138_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="decoder74LS138_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="decoder74LS138.nky"/>
+  <File Type="BITSTR-BMM" Name="decoder74LS138_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="decoder74LS138.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="decoder74LS138.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="decoder74LS138.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/de74ls138.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="decoder74LS138"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_2">
+    <File Path="$PSRCDIR/constrs_2/lab3-bit.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_2/lab3-bit.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
